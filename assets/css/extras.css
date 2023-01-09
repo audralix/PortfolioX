@@ -1,0 +1,37 @@
+
+.gallery {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+    grid-gap: 3rem;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    align-items: center;
+    text-align: center;
+  
+  }
+  /* Extras */
+  .gallery__item{
+    padding: 1rem;
+    
+  }
+  
+  .gallery__asset{
+    max-width: 400px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .gallery__item:nth-child(even) {
+    transform: translateY(25%);
+  } 
+  .gallery__item:nth-child(odd) {
+    transform: translateY(0%);
+  } 
+
+
+ 
